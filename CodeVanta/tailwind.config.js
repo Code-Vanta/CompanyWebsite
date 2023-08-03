@@ -14,9 +14,9 @@ export default {
       },
     
       screens: {
-        md: { min: "415px", max: "800px" },
+        md: { min: "416px", max: "800px" },
 
-        sm: { max: "414px" }
+        sm: { max: "415px" }
       },
     },
   },
