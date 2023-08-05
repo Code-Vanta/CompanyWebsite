@@ -2,11 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {
+    extend: { 
       backgroundImage: {
-        '': "url('/src/assets/');",
-        '':"url()",
-        '':"url()"
+        'value': "url('/src/assets/Rectangle.png')",
+        'value1':"url('/src/assets/Rectangle3861.png')"
       },
 
       fontFamily: {
