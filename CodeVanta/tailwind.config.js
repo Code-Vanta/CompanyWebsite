@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        '': "url('/src/assets/');",
-        '':"url()",
+        'chooseI': "url('/src/assets/backgroundCh.png');",
+        'card':"url('/src/assets/cardBgp.png')",
         '':"url()"
       },
 

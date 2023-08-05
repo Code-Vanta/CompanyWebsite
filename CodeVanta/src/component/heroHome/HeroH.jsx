@@ -10,7 +10,7 @@ const HeroH = () => {
     <section className=''>
         <div className='px-[5rem] sm:pt-1 pt-4 pb-6 flex gap-[5.5rem] md:flex md:flex-col-reverse items-center md:px-[1rem] sm:px-3'>
             <div className='lg:w-[52%] flex flex-col items-center lg:block w-full '>
-                <p className='font-semibold leading-tight text-[5rem] sm:font-medium sm:text-[3rem] text-center lg:text-start'>Let's Empower Your Brand</p>
+                <p className='font-semibold leading-tight text-[5rem] sm:font-medium sm:text-[3rem] md:font-medium md:text-[4rem] text-center lg:text-start'>Let's Empower Your Brand</p>
                 <p className='py-[1.5rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi dignissimos veniam nisi numquam recusandae error magnam in maxime deleniti obcaecati aliquam?
                 Sequi, soluta quo ratione animi voluptas pariatur eveniet ducimus repudiandae commodi facere eos voluptatem nostrum alias nihil et? Voluptatum magnam, rerum pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!</p>
                     <Button 
