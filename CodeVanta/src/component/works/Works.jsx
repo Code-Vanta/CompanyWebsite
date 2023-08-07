@@ -11,12 +11,12 @@ const Works = () => {
         <div className="flex flex-col gap-6">
           <div className="lg:flex lg:flex-row flex flex-col gap-[3rem] lg:gap-[4rem] items-start">
             <div className="lg:w-[40%] w-full sm:text-center md:text-center">
-              <h5 className="text-[#225AA5] font-normal text-[7rem] sm:text-[4.5rem]">BLOCKRIDE</h5>
+              <h5 className="text-[#225AA5] font-normal text-[5rem] sm:text-[4.5rem]">BLOCKRIDE</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi dignissimos veniam nisi numquam recusandae error magnam in maxime deleniti obcaecati aliquam?
               Sequi, soluta quo ratione animi voluptas pariatur eveniet ducimus repudiandae commodi facere eos voluptatem nostrum alias nihil et? Voluptatum magnam, rerum pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!</p>
             </div>
             <div className="lg:w-[60%] w-full">
-              <p className="font-semibold text-[14rem] leading-none lg:block hidden">
+              <p className="font-semibold text-[11rem] leading-none lg:block hidden">
                 BLOCK<br />RIDE.<span className="font-normal text-[5rem]">XYZ</span>
               </p>
               <a href="#" className="md:flex md:justify-center sm:flex sm:justify-center">  <Button 
@@ -32,8 +32,8 @@ const Works = () => {
               Sequi, soluta quo ratione animi voluptas pariatur eveniet ducimus repudiandae commodi facere eos voluptatem nostrum alias nihil et? Voluptatum magnam, rerum pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!</p>
             </div>
             <div className="lg:w-[60%] w-full">
-              <p className="font-semibold text-[14rem] leading-none lg:block hidden">
-                BUBB<br />LE.<span className="font-normal text-[6rem]">COM</span>
+              <p className="font-semibold text-[11rem] leading-none lg:block hidden">
+                BUBB<br />LE.<span className="font-normal text-[5rem]">COM</span>
               </p>
               <a href="#" className="md:flex md:justify-center sm:flex sm:justify-center">  <Button 
               text = {'Visit Bubble'}

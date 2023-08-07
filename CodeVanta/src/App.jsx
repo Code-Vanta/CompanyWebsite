@@ -19,8 +19,8 @@ function App() {
       <WhyChoose />
       <OurServices />
       <FReviews />
-      
-      // <Footer />
+      <ReviewForm />
+      <Footer />
       <BrowserRouter>
       <Routes></Routes>
     </BrowserRouter>
