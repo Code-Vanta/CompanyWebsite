@@ -1,18 +1,19 @@
 import React from 'react'
+import StarRatings from './StarRatings'
 
-const Card = ({image, Name, org, rating, review}) => {
+const Card = ({image, Name, org, review}) => {
   return (
-    <div className='bg-card bg-no-repeat bg-cover p-3'>
-        <div>
-            <div>
+    <div className='rounded-[2.5rem] bg-[#E6f5fb] p-3'>
+        <div className='flex gap-4'>
+            <div className='w-[10rem] h-[10rem]'>
                 <img src={image}/>
             </div>
             <div>
                 <div>
-                    <p>{Name}</p>
-                    <p>{org}</p>
+                    <p className='font-medium text-[1.2rem]'>{Name}</p>
+                    <p className='font-medium'>{org}</p>
                 </div>
-                <div>{rating}</div>
+                <div><StarRatings /></div>
                 <div>
                     <p>{review}</p>
                 </div>
