@@ -9,8 +9,8 @@ const About = () => {
     <div className=''>
       <Notion/>
       <Value/>
-      <Vision/>
-      <Team/>
+      {/* <Vision/> */}
+      {/* <Team/> */}
     </div>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import imageOne from '../../assets/img1.png'
 import imageTwo from '../../assets/img2.png'
-// import imageThree from '../../assets/img3.png'
 import imageFour from '../../assets/img4.png'
 import Card from '../card/Card'
 
