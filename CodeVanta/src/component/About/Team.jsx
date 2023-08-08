@@ -53,9 +53,9 @@ const Team = () => {
 
   return (
     
-   <div className='px-[10rem]'>
+   <div className='px-[10rem] sm:px-[2rem] md:px-[4rem]'>
     <p className='text-[2rem] font-semibold'>Meet Our Team</p>
-     <div className='grid grid-cols-2 py-[2rem] gap-y-[1.5rem]' >
+     <div className='grid grid-cols-2 py-[2rem] gap-[2rem] sm:grid-cols-1  ' >
        
        {
                datas.map((data,i)=>(<Card key={i} {...data} />  ))
