@@ -2,9 +2,9 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="py-[3rem] px-[10rem]  flex flex-col gap-[3.5rem] sm:px-[2rem]">
+    <div className="py-[3rem] px-[10rem]  flex flex-col gap-[3.5rem] sm:px-1 md:px-[3rem]">
       <div className="relative">
-        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[11rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[15.5rem] md:bottom-[15rem]"></div>
+        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[11rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[13.5rem] sm:left-[-1px] md:bottom-[14rem] md:left-[-15px]"></div>
         <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] ">
           <p className="text-[2rem] font-medium sm:text-[1.5rem]">Our Vision</p>
           <p className="text-[1.3rem]  sm:text-[1rem]">
@@ -16,7 +16,7 @@ const Vision = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[11rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[15.5rem] md:bottom-[15rem] "></div>
+        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[11rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[13.5rem] sm:left-[-1px] md:bottom-[14rem] md:left-[-15px]"></div>
         <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] h-[] sm:h-[] ">
           <p className="text-[2rem] font-medium sm:text-[1.5rem] ">Our Mission</p>
           <p className="text-[1.3rem]  sm:text-[1rem]">
