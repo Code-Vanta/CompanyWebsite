@@ -17,7 +17,7 @@ const Vision = () => {
       </div>
       <div className="relative">
         <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[11rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[13.5rem] sm:left-[-1px] md:bottom-[14rem] md:left-[-15px]"></div>
-        <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] h-[] sm:h-[] ">
+        <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem]">
           <p className="text-[2rem] font-medium sm:text-[1.5rem] ">Our Mission</p>
           <p className="text-[1.3rem]  sm:text-[1rem]">
             Even getting a link from Wikipedia can be difficult (trust me I

@@ -6,11 +6,11 @@
 .value1{
     background-image: url('../src/assets/Rectangle.png');
     background-repeat: no-repeat;
-    /* height: 100vh; */
     background-size: cover;
 }
-
-/* .value2{
-    background-image: url('../src/assets/value2.png');
+.service{
+    background-image: url('../src/assets/service.png');
     background-repeat: no-repeat;
-} */
+    background-size: cover;
+    background-position: 1;
+}

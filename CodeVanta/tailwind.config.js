@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: { 
       backgroundImage: {
-        'value': "url('/src/assets/Rectangle.png')",
-        'value1':"url('/src/assets/Rectangle3861.png')"
+
       },
 
       fontFamily: {
