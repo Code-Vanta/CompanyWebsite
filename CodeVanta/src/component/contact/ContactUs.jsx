@@ -37,7 +37,7 @@ const ContactUs = () => {
            setMessage("");
            setSubscribe(false)
          }
-      console.log("Subscriber added:", response.data);
+      console.log(response);
     } catch (error) {
       console.error("Error adding subscriber:", error);
     }
@@ -82,7 +82,7 @@ const ContactUs = () => {
               <input
                 type="checkbox"
                 value={subscribe}
-                onClick={() => setSubscribe(false)}
+                onChange={() => setSubscribe(false)}
               />
               <p>Subscribe to Our Newsletter</p>
             </div>
