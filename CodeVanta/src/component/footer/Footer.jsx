@@ -1,5 +1,5 @@
 import React from "react";
-import NewsLetter from "../newsletter/NewsLetter";
+import NewsLetter from "../langingpage/newsletter/NewsLetter";
 
 const Footer = () => {
   return (

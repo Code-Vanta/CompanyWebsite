@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import image from '../../assets/heroImg.png'
-import Button from '../button/Button'
+// import { Link } from 'react-router-dom'
+import image from '../../../assets/heroImg.png'
+import Button from '../../button/Button'
 import { CiSearch } from 'react-icons/ci'
 
 

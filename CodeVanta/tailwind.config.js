@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         'chooseI': "url('/src/assets/backgroundCh.png');",
-        '':"url('')",
+        'contact':"url('src/assets/contactBg.png')",
         '':"url()"
       },
 
