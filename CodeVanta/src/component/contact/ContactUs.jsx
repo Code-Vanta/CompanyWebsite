@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import Navbar from "../navbar/Navbar";
 import telephone from '../../assets/telephone.png'
+import Button from "../button/Button";
 
 const ContactUs = () => {
   const [email, setEmail] = useState("");
@@ -13,6 +14,18 @@ const ContactUs = () => {
     e.preventDefault();
 
     try {
+        // if (!email.includes("@") || !email.includes(".com")) {
+        //   alert("Please enter a valid email");
+        // } 
+        if (
+          email === "" ||
+          name === "" ||
+          message === "" ||
+          !email.includes("@") ||
+          !email.includes(".com")
+        ) {
+          alert("All fields are required");
+        }
       const response = await axios.post(
         "https://codevanta-server.onrender.com/",
         {
@@ -27,16 +40,11 @@ const ContactUs = () => {
           },
         }
         );
-         if (!email.includes("@") || !email.includes(".com")) {
-           alert("Please enter a valid email");
-         } else if(email === "" || name === "" || message === "") {
-            alert("All fields are required")
-         } else {
-           setEmail("");
-           setName("");
-           setMessage("");
-           setSubscribe(false)
-         }
+          //  setEmail("");
+          //  setName("");
+          //  setMessage("");
+          //  setSubscribe(false)
+         
       console.log(response);
     } catch (error) {
       console.error("Error adding subscriber:", error);
@@ -86,12 +94,15 @@ const ContactUs = () => {
               />
               <p>Subscribe to Our Newsletter</p>
             </div>
-            <button type="submit">Subscribe</button>
+            <Button
+              text={"Submit"}
+              style="bg-[#225AA5] text-white rounded-sm py-2 px-6"
+            />
           </form>
         </div>
         <div>
           <div>
-            <img src={telephone}/>
+            <img src={telephone} />
           </div>
           <div>
             <div></div>
