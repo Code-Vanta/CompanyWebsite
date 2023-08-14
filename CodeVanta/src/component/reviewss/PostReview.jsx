@@ -9,9 +9,9 @@ const PostReview = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (name === "" || message === "") {
+    if (name === "" || message === "" || organization === "") {
       alert(
-        "Name and Review message are required only Organization name is optional"
+        "Fill all required fields. Name, Organization name and Message are required"
       );
     } else {
       try {
@@ -58,7 +58,7 @@ const PostReview = () => {
                 placeholder="Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="ring-2 ring-black rounded-md px-2 py-1"
+                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -70,7 +70,7 @@ const PostReview = () => {
                 placeholder="Organization's name"
                 value={organization}
                 onChange={(e) => setOrganization(e.target.value)}
-                className="ring-2 ring-black rounded-md px-2 py-1"
+                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -82,7 +82,7 @@ const PostReview = () => {
                 placeholder="Message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="ring-2 ring-black rounded-md px-2 py-1"
+                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
             <div className="flex gap-2 flex-col">
@@ -91,7 +91,7 @@ const PostReview = () => {
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                className="ring-2 ring-black rounded-md px-2 py-1"
+                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
             <div className="flex gap-2 justify-center">
