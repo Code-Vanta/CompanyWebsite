@@ -42,7 +42,7 @@ const Navbar = () => {
             Blog
           </p>
           <a
-            href="WorksArea"
+            href="#WorksArea"
             className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]"
           >
             Works
