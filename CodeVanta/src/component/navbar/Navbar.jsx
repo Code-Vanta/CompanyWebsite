@@ -29,31 +29,26 @@ const Navbar = () => {
           className={
             toggle
               ? "h-screen w-full items-center pt-[2rem] text-white flex flex-col gap-[2rem] bg-[#225AA5]"
-              : "flex gap-4 py-3 border-b-4 md:hidden sm:hidden"
+              : "flex gap-[4rem] py-3 border-b-4 md:hidden sm:hidden"
           }
         >
-          <p className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]">
+          <p className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]">
             About
           </p>
-          <p className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]">
+          <p className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]">
             Contact
           </p>
-          <p className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]">
+          <p className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]">
             Blog
           </p>
           <a
             href="#WorksArea"
-            className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]"
+            className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]"
           >
             Works
           </a>
           <p className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]">
             Services
-          </p>
-        </div>
-        <div className="sm:hidden">
-          <p className="text-[#225AA5] font-normal sm:hidden md:hidden">
-            Hello, you are welcome.
           </p>
         </div>
       </div>

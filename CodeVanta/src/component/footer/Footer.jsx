@@ -1,5 +1,9 @@
 import React from "react";
 import NewsLetter from "../langingpage/newsletter/NewsLetter";
+import logo from '../../assets/companyLogo.svg'
+import { FaFacebookF } from "react-icons/fa";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { AiOutlineTwitter } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -36,7 +40,25 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div></div>
+          <div className="flex sm:flex-col lg:px-[4rem] md:px-[4rem] gap-[2rem] lg:gap-[16rem] items-center">
+            <div className="w-[6rem] h-[6rem]">
+              <img src={logo} className="bg-black" />
+            </div>
+            <p className="flex gap-1 items-center">
+              &#169; CodeVanta.All Rights Reserved
+            </p>
+            <div className="flex gap-6">
+              <a href="">
+                <FaFacebookF />
+              </a>
+              <a href="https://www.linkedin.com/company/97924121/">
+                <BiLogoLinkedin />
+              </a>
+              <a href="">
+                <AiOutlineTwitter />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

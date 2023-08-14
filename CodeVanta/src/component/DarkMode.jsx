@@ -1,4 +1,5 @@
-import { createContext,useContext,useState } from "react";
+import React from "react";
+import { createContext,useState } from "react";
 
 const DarkContext = createContext()
 const ToggleContext = createContext()

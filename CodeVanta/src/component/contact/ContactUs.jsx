@@ -3,6 +3,10 @@ import axios from "axios";
 import Navbar from "../navbar/Navbar";
 import telephone from "../../assets/telephone.png";
 import Button from "../button/Button";
+import { FaFacebookF } from "react-icons/fa";
+import { BiLogoLinkedin } from "react-icons/bi";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { BiSolidPhoneCall } from "react-icons/bi";
 
 const ContactUs = () => {
   const [email, setEmail] = useState("");
@@ -66,7 +70,7 @@ const ContactUs = () => {
                   placeholder="Name/Organization's Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="ring-2 ring-black rounded-md px-2 py-1"
+                  className="ring-2 ring-slate-300 rounded-md px-2 py-1"
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -76,7 +80,7 @@ const ContactUs = () => {
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="ring-2 ring-black rounded-md px-2 py-1"
+                  className="ring-2 ring-slate-300 rounded-md px-2 py-1"
                 />
               </div>
               <div className="flex flex-col gap-2">
@@ -88,7 +92,7 @@ const ContactUs = () => {
                   placeholder="Message"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
-                  className="ring-2 ring-black rounded-md px-2 py-1"
+                  className="ring-2 ring-slate-300 rounded-md px-2 py-1"
                 />
               </div>
               <div className="flex gap-2 items-center">
@@ -111,11 +115,30 @@ const ContactUs = () => {
             <div>
               <img src={telephone} />
             </div>
-            <div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div className="p-6">
+              <div className="flex flex-col gap-[2rem]">
+                <div className="flex gap-5 items-center">
+                  <BiSolidPhoneCall size={24} className="text-[#225AA5]" />
+                  <p>+234 7057 870 231</p>
+                </div>
+                <div className="flex gap-5 items-center">
+                  <p>Contact@codevanta.tech</p>
+                </div>
+                <div className="flex gap-5 items-center">
+                  <p>Lekki, Lagos</p>
+                </div>
+                <div className="flex gap-4">
+                  <a href="">
+                    <FaFacebookF />
+                  </a>
+                  <a href="https://www.linkedin.com/company/97924121/">
+                    <BiLogoLinkedin />
+                  </a>
+                  <a href="">
+                    <AiOutlineTwitter />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
