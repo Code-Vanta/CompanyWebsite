@@ -6,7 +6,7 @@ export default {
       backgroundImage: {
         'chooseI': "url('/src/assets/backgroundCh.png');",
         'contact':"url('src/assets/contactBg.png')",
-        '':"url()"
+        'smbg':"url('src/assets/smbglanding.png')"
       },
 
       fontFamily: {

@@ -4,7 +4,7 @@ import Button from "../../button/Button";
 const Works = () => {
   return (
     <section id="WorksArea">
-      <div className="px-[5rem] pt-4 sm:pt-1 pb-6 md:px-[1rem] sm:px-3">
+      <div className="px-[5rem] pt-2 sm:pt-1 pb-3 md:px-[1rem] sm:px-3">
         <p className="text-center font-bold text-[3rem] py-4">
           Our <span className="text-[#225AA5]">Works</span>
         </p>

@@ -21,7 +21,7 @@ const GetReview = () => {
     getReview()
   }, [])
   return (
-    <div className="px-[4rem] pt-4 sm:pt-2 pb-6 md:px-[0.3rem] sm:px-3">
+    <div className="px-[4rem] pt-2 sm:pt-2 pb-3 md:px-[0.3rem] sm:px-3">
       <p className="text-center font-bold text-[3rem] sm:text-[2rem]">
         Featured <span className="text-[#225AA5]">Reviews</span>
       </p>

@@ -3,7 +3,7 @@ import React from "react";
 const OurServices = () => {
   return (
     <section>
-      <div className="px-[5rem] pt-7 sm:pt-1 pb-6 md:px-[1rem] sm:px-3">
+      <div className="px-[5rem] pt-2 sm:pt-1 pb-3 md:px-[1rem] sm:px-3">
         <p className="text-center font-bold text-[3rem] py-6">Our Unique <span className="text-[#225AA5]">Services</span></p>
         <div className="lg:flex lg:flex-row gap-[1.5rem] flex flex-col">
           <div>

@@ -8,7 +8,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="bg-black text-white">
-      <div className="px-[4rem] pt-4 sm:pt-2 pb-6 md:px-[0.3rem] sm:px-3">
+      <div className="px-[4rem] pt-4 sm:pt-2 pb-2 md:px-[0.3rem] sm:px-3">
         <div>
           <NewsLetter />
           <div className="flex justify-around sm:flex sm:justify-start sm:gap-x-[6rem] sm:gap-y-7 p-3 sm:flex-wrap">
@@ -40,8 +40,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex sm:flex-col lg:px-[4rem] md:px-[4rem] gap-[2rem] lg:gap-[16rem] items-center">
-            <div className="w-[6rem] h-[6rem]">
+          <div className="flex sm:flex-col-reverse lg:px-[4rem] md:px-[4rem] gap-[2rem] lg:gap-[16rem] items-center">
+            <div className="w-[6rem] h-[6rem] sm:hidden">
               <img src={logo} className="bg-black" />
             </div>
             <p className="flex gap-1 items-center">

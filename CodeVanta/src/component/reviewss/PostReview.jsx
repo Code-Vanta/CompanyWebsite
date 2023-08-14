@@ -1,17 +1,19 @@
 import { useState } from "react";
 import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Button from "../button/Button";
 const PostReview = () => {
   const [name, setName] = useState("");
   const [organization, setOrganization] = useState("");
-  const [message, setMessage] = useState("");
+  const [review, setReview] = useState("");
   const [date, setDate] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (name === "" || message === "" || organization === "") {
-      alert(
-        "Fill all required fields. Name, Organization name and Message are required"
+    if (name === "" || review === "" || organization === "") {
+      toast.info(
+        "Fill all required fields. Name, Organization name and review are required"
       );
     } else {
       try {
@@ -20,7 +22,7 @@ const PostReview = () => {
           {
             name: name,
             organization: organization,
-            message: message,
+            message: review,
             date: date,
           },
           {
@@ -31,16 +33,18 @@ const PostReview = () => {
         );
         setName("");
         setOrganization("");
-        setMessage("");
+        setReview("");
         setDate("");
         console.log(response);
+        toast.success("Your review has been submitted")
       } catch (error) {
         console.error("Error adding subscriber:", error);
+        toast.error("network error")
       }
     }
   };
   return (
-    <div className="px-[4rem] pt-4 sm:pt-2 pb-6 md:px-[0.5rem] sm:px-3">
+    <div className="px-[4rem] pt-4 sm:pt-2 pb-3 md:px-[0.5rem] sm:px-3">
       <div>
         <p className="font-medium text-[2rem] text-center sm:text-[1.5rem]">
           Write a Review about{" "}
@@ -75,13 +79,13 @@ const PostReview = () => {
             </div>
             <div className="flex flex-col gap-2">
               <label className="font-normal text-[1.2rem]">
-                Write a Message
+                Write a review
               </label>
               <textarea
                 rows="10"
-                placeholder="Message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
+                placeholder="review"
+                value={review}
+                onChange={(e) => setReview(e.target.value)}
                 className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
@@ -91,7 +95,7 @@ const PostReview = () => {
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
+                className="ring-2 ring-slate-300 rounded-md pl-2 pr-5 py-1"
               />
             </div>
             <div className="flex gap-2 justify-center">
@@ -100,6 +104,7 @@ const PostReview = () => {
                 style="bg-[#225AA5] text-white rounded-md py-2 px-6"
               />
             </div>
+            <ToastContainer />
           </form>
         </div>
       </div>
