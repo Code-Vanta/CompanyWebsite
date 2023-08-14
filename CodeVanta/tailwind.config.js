@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        '': "url('/src/assets/');",
-        '':"url()",
+        'chooseI': "url('/src/assets/backgroundCh.png');",
+        'contact':"url('src/assets/contactBg.png')",
         '':"url()"
       },
 
@@ -14,9 +14,9 @@ export default {
       },
     
       screens: {
-        md: { min: "415px", max: "800px" },
+        md: { min: "416px", max: "800px" },
 
-        sm: { max: "414px" }
+        sm: { max: "415px" }
       },
     },
   },
