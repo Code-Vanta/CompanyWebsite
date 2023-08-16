@@ -5,8 +5,8 @@ export const Service = () => {
     <div className="">
       <div className="px-[7rem] sm:px-3">
         <div className="text-center flex flex-col gap-2 ">
-          <p className="text-[4rem] text-[#225AA5] font-normal ">SERVICES</p>
-          <p className="text-[1.8rem] ">
+          <p className="text-[4rem] text-[#225AA5] font-normal sm:text-[2rem] ">SERVICES</p>
+          <p className="text-[1.8rem] sm:text-[1.2rem] ">
             At CodeVanta, we are dedicated to providing you with exceptional
             services that cater to your unique needs
           </p>
@@ -29,7 +29,6 @@ export const Service = () => {
           </div>
         </div>
       </div>
-      {/* flex items-center  justify-center flex-row flex-wrap gap-x-96 gap-y-80 */}
       {/* <div className="service py-[6rem] px-[7rem] sm:px-3 ">
         <div className="">
           <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]  ml-[40rem] sm:ml-0  ">
@@ -103,8 +102,10 @@ export const Service = () => {
               </span>
             </div>
           </div>
+
         </div>
       </div> */}
+      
     </div>
   );
 };
