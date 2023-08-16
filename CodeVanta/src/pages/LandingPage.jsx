@@ -7,7 +7,7 @@ import GetReview from '../component/reviewss/GetReview';
 
 const LandingPage = () => {
   return (
-    <div className="lg:pb-[3rem] pb-7">
+    <div className="lg:pb-[3rem] sm:bg-slate-100 pb-7">
       <HeroH />
       <Works />
       <WhyChoose />

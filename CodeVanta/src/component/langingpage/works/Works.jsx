@@ -19,7 +19,7 @@ const Works = () => {
               <p className="font-semibold text-[11rem] leading-none lg:block hidden">
                 BLOCK<br />RIDE.<span className="font-normal text-[5rem]">XYZ</span>
               </p>
-              <a href="#" className="md:flex md:justify-center sm:flex sm:justify-center">  <Button 
+              <a href="https://www.blockride.xyz" className="md:flex md:justify-center sm:flex sm:justify-center">  <Button 
                 text = {'Visit Blockride'}
                 style= 'bg-[#225AA5] rounded-r-full rounded-bl-full text-white py-2 px-2'
               /></a>

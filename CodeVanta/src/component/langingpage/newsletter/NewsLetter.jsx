@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../../button/Button";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
 const NewsLetter = () => {
@@ -15,7 +17,7 @@ const NewsLetter = () => {
     try{
       e.preventDefault();
       if (!email.includes("@") || !email.includes(".com") || email === "") {
-        alert("Please enter a valid email");
+        toast.info("Please enter a valid email");
       }
       const response = await axios.post(`us21.api.mailchimp.com/3.0/lists/${listID}/member`,{
         email_address : email,
@@ -40,6 +42,7 @@ const NewsLetter = () => {
         }
       })
       console.log("Automated mail sent successfully:", campaignResponse.data)
+      toast.success("You have successfully subscribe to our Newsletter.")
     } catch (error) {
       console.log("Error: ", error)
     }
@@ -64,6 +67,7 @@ const NewsLetter = () => {
           />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };
