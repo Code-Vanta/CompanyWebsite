@@ -8,7 +8,7 @@ const Notion = () => {
           Code<span className="text-[#225AA5]">Vanta</span>
         </h1>
 
-        <p className="text- font-normal pb-[2rem] text-[1.3rem] w-[45rem] sm:text-[1rem] mx-auto sm:w-[24rem] sm:pb-[6rem]">
+        <p className="text- font-normal pb-[2rem] text-[1.1rem] w-[45rem] sm:text-[1rem] mx-auto sm:w-[24rem] sm:pb-[4rem]">
           If your objective is to give your business the accessibility it
           deserves in today’s online/digital space, look no further than
           CODEVANTA! With close to 4 billion people accessing social media
@@ -24,7 +24,7 @@ const Notion = () => {
           <img
             src={about}
             alt=""
-            className=" w-[45rem] z-10 left-[15rem] top-[24rem] sm:w-[20rem] sm:left-[2rem] sm:top-[24rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
+            className=" w-[45rem] z-10 left-[15rem] top-[24rem] sm:w-[20rem] sm:left-[2rem] sm:top-[22rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
           />
         </div>
       </div>
