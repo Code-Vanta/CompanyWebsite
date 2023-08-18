@@ -4,6 +4,7 @@ import logo from '../../assets/companyLogo.svg'
 import { FaFacebookF } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { AiOutlineTwitter } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,10 +16,10 @@ const Footer = () => {
             <div className="flex flex-col gap-[0.5rem]">
               <h3 className="font-medium">Navigations</h3>
               <div className="flex flex-col gap-[0.3rem]">
-                <p>Home</p>
-                <p>About</p>
-                <p>Contact</p>
-                <p>Blog</p>
+                <Link to="/">Home</Link>
+                <Link to="">About</Link>
+                <Link to="/contactus">Contact</Link>
+                <Link to="/blog">Blog</Link>
                 <p>Services</p>
               </div>
             </div>
@@ -61,6 +62,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <getresponse-form
+        form-id="c76d8e90-a005-40b6-99a4-c9a3dfc7452c"
+        e="1"
+      ></getresponse-form>
     </footer>
   );
 };

@@ -9,80 +9,39 @@ const OurServices = () => {
         </p>
         <div className="lg:flex lg:flex-row gap-[1.5rem] flex flex-col">
           <div className="lg:w-[50%]">
-            <p className="font-medium text-[1.5rem]">
-              Web Design and Development
-            </p>
+            <p className="font-medium text-[1.5rem]">Technological Solution </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi
-              dignissimos veniam nisi numquam recusandae error magnam in maxime
-              deleniti obcaecati aliquam? Sequi, soluta quo ratione animi
-              voluptas pariatur eveniet ducimus repudiandae commodi facere eos
-              voluptatem nostrum alias nihil et? Voluptatum magnam, rerum
-              pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!
+              at CodeVanta we offer software and hardware solutions to enhance
+              business productivity and efficiency through our innovative
+              thinking and expertise.
             </p>
           </div>
           <div className="lg:w-[50%]">
-            <p className="font-medium text-[1.5rem]">Branding</p>
+            <p className="font-medium text-[1.5rem]">Digital Transformation</p>
             <p>
-              It is important to ensure your business remains active within the
-              consciousness of your clients. CodeVanta can help you capture the
-              essence of your Unique Selling Point and project it via customised
-              logos and themes, unique to your enterprise.
+              we provide guidance and assist businesses and individuals in
+              adopting technologies and transitioning to the fast changing
+              technological world.
             </p>
           </div>
         </div>
         <div className="lg:flex lg:flex-row gap-[1.5rem] flex flex-col py-[2rem]">
           <div className="lg:w-[50%]">
             <p className="font-medium text-[1.5rem]">
-              App Design and Development
+              E-commerce and Marketplace{" "}
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi
-              dignissimos veniam nisi numquam recusandae error magnam in maxime
-              deleniti obcaecati aliquam? Sequi, soluta quo ratione animi
-              voluptas pariatur eveniet ducimus repudiandae commodi facere eos
-              voluptatem nostrum alias nihil et? Voluptatum magnam, rerum
-              pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!
+              at CodeVanta we help in creating an online platform for businesses
+              to connect with their potential customers and helping them perform
+              seamless transactions while expanding their market reach.
             </p>
           </div>
           <div className="lg:w-[50%]">
             <p className="font-medium text-[1.5rem]">Management System</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi
-              dignissimos veniam nisi numquam recusandae error magnam in maxime
-              deleniti obcaecati aliquam? Sequi, soluta quo ratione animi
-              voluptas pariatur eveniet ducimus repudiandae commodi facere eos
-              voluptatem nostrum alias nihil et? Voluptatum magnam, rerum
-              pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!
-            </p>
-          </div>
-        </div>
-        <div className="lg:flex lg:flex-row gap-[1.5rem] flex flex-col">
-          <div className="lg:w-[50%]">
-            <p className="font-medium text-[1.5rem]">UI/UX</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi
-              dignissimos veniam nisi numquam recusandae error magnam in maxime
-              deleniti obcaecati aliquam? Sequi, soluta quo ratione animi
-              voluptas pariatur eveniet ducimus repudiandae commodi facere eos
-              voluptatem nostrum alias nihil et? Voluptatum magnam, rerum
-              pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!
-            </p>
-          </div>
-          <div className="lg:w-[50%]">
-            <p className="font-medium text-[1.5rem]">Technology Solution</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              harum quidem quibusdam! Fuga quidem dolorem porro, quam quasi
-              dignissimos veniam nisi numquam recusandae error magnam in maxime
-              deleniti obcaecati aliquam? Sequi, soluta quo ratione animi
-              voluptas pariatur eveniet ducimus repudiandae commodi facere eos
-              voluptatem nostrum alias nihil et? Voluptatum magnam, rerum
-              pariatur ut minima aspernatur dolor? Eius facilis veniam suscipit!
+              at CodeVanta we can help you manage your existing software and
+              improve its productivity and efficiency in accordance with the
+              latest technological changes.
             </p>
           </div>
         </div>

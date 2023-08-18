@@ -4,16 +4,9 @@ import {FiX} from 'react-icons/fi'
 import {useState} from 'react'
 import logo from '../../assets/companyLogo.svg'
 import { Link } from 'react-router-dom'
-// import { useDarkContext, useToggleContext } from '../DarkMode'
 
 
 const Navbar = () => {
-  // const itsDark = useDarkContext()
-
-  // console.log(itsDark)
-  // const toggleIt = useToggleContext()
-
-  // console.log(toggleIt)
     const[toggle, setToggle] = useState(false)
     const letToggle = () => {
     setToggle(!toggle)
@@ -32,7 +25,6 @@ const Navbar = () => {
               className="w-[8rem] h-[7.5rem]"
             />
           </Link>
-          {/*{toggleIt ? <p>on</p> : <p>off</p>}*/}
         </div>
         <div
           className="hidden sm:block md:block absolute md:right-[6rem] right-[2rem] top-[2.5rem]"
@@ -64,12 +56,12 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <p
+          <Link to='/blog'
             onClick={handleItemClick}
             className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]"
           >
             Blog
-          </p>
+          </Link>
           <a
             href="/#WorksArea"
             onClick={handleItemClick}

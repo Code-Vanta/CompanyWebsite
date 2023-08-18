@@ -7,6 +7,7 @@ import Fallback from "./component/fallback/Fallback";
 import PostReview from "./component/reviewss/PostReview";
 import LandingPage from "./pages/LandingPage";
 import Contact from "./pages/Contact";
+import BlogPage from "./component/blog/BlogPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route element={<LayOut />}>
             <Route path="/" element={<LandingPage />} />
+            <Route path="blog" element={<BlogPage />}/>
           </Route>
           <Route path="contactus" element={<Contact />} />
           <Route path="*" element={<Fallback />} />

@@ -26,7 +26,7 @@ const GetReview = () => {
         Featured <span className="text-[#225AA5]">Reviews</span>
       </p>
       {!data ? (
-        <p className="font-semibold text-center">Review will be available shortly. You can write a review in the contact page.</p>
+        <p className="font-bold text-center">Review will be available shortly. You can write a review about us in the contact page.</p>
       ) : (
         <div className="grid grid-cols-3 sm:grid-cols-2 gap-x-2 gap-y-3">
           {data &&
