@@ -12,7 +12,7 @@ const Team = () => {
     const datas=[
         {
             image : johnson,
-            name: "Johnson Jacobs",
+            name: "Johnson Gabriel",
             position: "founder/Team lead",
             linkAddress:'https://www.linkedin.com/in/johnson-gabriel-a802b2286',
             link:"Linkedin profile"
@@ -28,7 +28,7 @@ const Team = () => {
         {
             image : leke,
             name: "Leke Mogbonjubola",
-            position: "Software Engineer",
+            position: "Product Designer",
             link:"Linkedin profile"
 
         },
