@@ -31,9 +31,9 @@ const Navbar = () => {
           onClick={letToggle}
         >
           {toggle ? (
-            <FiX size={28} className="text-white" />
+            <FiX size={30} className="text-white" />
           ) : (
-            <FiMenu size={28} className="text-[#225AA5]" />
+            <FiMenu size={30} className="text-[#225AA5]" />
           )}
         </div>
         <div
