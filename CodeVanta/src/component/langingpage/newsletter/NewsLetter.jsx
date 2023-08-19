@@ -15,7 +15,7 @@ const NewsLetter = () => {
 
     const data = {
       campaign: {
-        campaignId: "382526601", // Replace with your campaign ID
+        campaignId: "PHp3H", // Replace with your campaign ID
       },
       contact: {
         email,
@@ -29,7 +29,7 @@ const NewsLetter = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            "X-Auth-Token": "w3v7b58ta18bq81lxfs3gdk7myjygf1i", // Replace with your GetResponse API key
+            "X-Auth-Token": "api-key w3v7b58ta18bq81lxfs3gdk7myjygf1i", // Replace with your GetResponse API key
           },
         }
       );
