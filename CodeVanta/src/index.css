@@ -3,8 +3,18 @@
 @tailwind utilities;
 
 
-@layer base {
-  html {
-    font-family: Inter var, Proxima Nova,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, system-ui, sans-serif;
-  }
+
+.value1{
+    background-image: url('../src/assets/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+.service{
+    background-image: url('../src/assets/service.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1;
+}
+
+
