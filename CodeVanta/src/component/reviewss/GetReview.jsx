@@ -21,12 +21,12 @@ const GetReview = () => {
     getReview()
   }, [])
   return (
-    <div className="px-[4rem] pt-4 sm:pt-2 pb-6 md:px-[0.3rem] sm:px-3">
+    <div className="px-[4rem] pt-2 sm:pt-2 pb-3 md:px-[0.3rem] sm:px-3">
       <p className="text-center font-bold text-[3rem] sm:text-[2rem]">
         Featured <span className="text-[#225AA5]">Reviews</span>
       </p>
       {!data ? (
-        <p className="font-semibold text-center">Review will be available shortly. You can write a review in the contact page.</p>
+        <p className="font-bold text-center">Review will be available shortly. You can write a review about us in the contact page.</p>
       ) : (
         <div className="grid grid-cols-3 sm:grid-cols-2 gap-x-2 gap-y-3">
           {data &&

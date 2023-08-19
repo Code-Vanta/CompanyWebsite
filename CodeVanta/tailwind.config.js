@@ -1,25 +1,31 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {
+    extend: { 
       backgroundImage: {
-        'chooseI': "url('/src/assets/backgroundCh.png');",
-        'contact':"url('src/assets/contactBg.png')",
-        '':"url()"
+
+        chooseI: "url('/src/assets/backgroundCh.png');",
+        contact: "url('src/assets/contactBg.png')",
+        smbg: "url('src/assets/smbglanding.png')",
+
       },
 
       fontFamily: {
-        'DM-Sans': ['DM-Sans', 'sans-serif'],
+        fontFamily: {
+          sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        },
       },
-    
+
       screens: {
         md: { min: "416px", max: "800px" },
 
-        sm: { max: "415px" }
+        sm: { max: "415px" },
       },
     },
   },
   plugins: [],
-}
+};
 

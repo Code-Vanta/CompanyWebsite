@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../../button/Button";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
 const NewsLetter = () => {
@@ -9,39 +11,37 @@ const NewsLetter = () => {
     setEmail(e.target.value);
   }
   async function handleSubmit(e) {
-    const myKey = "3e1e3108d002088759ac3e36e3f24bb0-us21";
-    const listID = "d491efce71";
-    const templateId = ''
-    try{
-      e.preventDefault();
-      if (!email.includes("@") || !email.includes(".com") || email === "") {
-        alert("Please enter a valid email");
+    e.preventDefault();
+
+    const data = {
+      campaign: {
+        campaignId: "PHp3H", // Replace with your campaign ID
+      },
+      contact: {
+        email,
+      },
+    };
+
+    try {
+      const response = await axios.post(
+        "https://api.getresponse.pl/v3/contacts",
+        data,
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "X-Auth-Token": "api-key w3v7b58ta18bq81lxfs3gdk7myjygf1i", // Replace with your GetResponse API key
+          },
+        }
+      );
+
+      if (response.status === 202) {
+        alert("Subscription successful!"); // Modify this based on your UI/UX
+        setEmail("");
+      } else {
+        alert("Subscription failed. Please try again."); // Modify this based on your UI/UX
       }
-      const response = await axios.post(`us21.api.mailchimp.com/3.0/lists/${listID}/member`,{
-        email_address : email,
-        status : 'Subscribed'
-      },
-      {
-        headers : {
-          Authorization : `apiKey ${myKey}`,
-          'Content-Type' : 'application/json'
-        }
-      })
-      console.log('subscriber added:', response.data)
-      const campaignResponse = await axios.post(`us21.api.mailchimp.com/3.0/automations/${templateId}/actions/emails`,{
-        recipients: {
-          list_id : listID
-        }
-      },
-      {
-         headers : {
-          Authorization : `apiKey ${myKey}`,
-          'Content-Type' : 'application/json'
-        }
-      })
-      console.log("Automated mail sent successfully:", campaignResponse.data)
     } catch (error) {
-      console.log("Error: ", error)
+      console.error("Error subscribing:", error);
     }
   }
   return (
@@ -64,6 +64,7 @@ const NewsLetter = () => {
           />
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };
