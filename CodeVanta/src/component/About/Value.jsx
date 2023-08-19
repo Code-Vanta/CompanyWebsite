@@ -2,29 +2,20 @@ import React from "react";
 
 const Value = () => {
   return (
-    <div className="value1  px-[10rem] pt-[10rem] mt-[11rem] py-[3rem] relative sm:px-[1rem] sm:pt-[5rem] sm:mt-[.3rem] md:px-[0.5rem] ">
+    <div className="value1  px-[7rem] pt-[10rem] mt-[11rem] py-[3rem] relative sm:px-[0.1rem] sm:pt-[5rem] sm:mt-[.3rem] md:px-[0.5rem] ">
       <div className="">
-        <p className="text-[3rem] font-medium py-[1.5rem] sm:py-[rem] ">
+        <p className="text-[3rem] text-center font-medium py-[1.5rem] sm:py-[rem] ">
           Our Value{" "}
+        </p>
+        <p className="text-center text-[1.5rem] py-6">
+          At CODEVANTA, every call, enquiry,complaint or feedback from you, is
+          of utmost importance. We engage all existing and potential clients
+          based on the following tenets of our value proposition.
         </p>
         <div className="grid grid-cols-2 gap-10 sm:grid-cols-1 md:">
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
               <p className="font-medium text-[1.2rem]">01</p>
-            </span>
-            <span className="">
-              <p className="font-medium text-[1.2rem]">Value Proposition</p>
-              <p className="  text-md sm:text-base ">
-                At CODEVANTA, every call, enquiry,complaint or feedback from
-                you, is of utmost importance. We engage all existing and
-                potential clients based on the following tenets of our value
-                proposition:
-              </p>
-            </span>
-          </div>
-          <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
-            <span className="">
-              <p className="font-medium text-[1.2rem]">02</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Integrity</p>
@@ -36,7 +27,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">03</p>
+              <p className="font-medium text-[1.2rem]">02</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Innovation</p>
@@ -48,7 +39,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">04</p>
+              <p className="font-medium text-[1.2rem]">03</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Learning</p>
@@ -61,7 +52,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">05</p>
+              <p className="font-medium text-[1.2rem]">04</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Diversity</p>
@@ -74,7 +65,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">06</p>
+              <p className="font-medium text-[1.2rem]">05</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Passion</p>
@@ -87,7 +78,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">08</p>
+              <p className="font-medium text-[1.2rem]">06</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Transparency</p>
@@ -99,7 +90,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">08</p>
+              <p className="font-medium text-[1.2rem]">07</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]"> Committment</p>
@@ -112,7 +103,7 @@ const Value = () => {
           </div>
           <div className="flex gap-3 w-[25rem] sm:w-[20rem] md:w-[21.5rem]">
             <span className="">
-              <p className="font-medium text-[1.2rem]">09</p>
+              <p className="font-medium text-[1.2rem]">08</p>
             </span>
             <span className="">
               <p className="font-medium text-[1.2rem]">Accountability</p>

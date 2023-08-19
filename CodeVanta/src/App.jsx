@@ -2,8 +2,7 @@
 // import Navbar from "./component/navbar/Navbar"
 
 import About from "./component/About/About"
-import { Service } from "./component/Service/Service"
-=======
+import Service from "./component/Service/Service"
 import Footer from "./component/footer/Footer";
 import Navbar from "./component/navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,24 +17,18 @@ import BlogPage from "./component/blog/BlogPage";
 
 function App() {
   return (
-    <>
-    {/* <About/> */}
-    <Service/>
-      
-    </>
-  )
-    <div>
       <BrowserRouter>
         <Routes>
           <Route element={<LayOut />}>
             <Route path="/" element={<LandingPage />} />
             <Route path="blog" element={<BlogPage />}/>
+            <Route path="about" element={<About />}/>
+            <Route path="services" element={<Service />}/>
           </Route>
           <Route path="contactus" element={<Contact />} />
           <Route path="*" element={<Fallback />} />
         </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 

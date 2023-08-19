@@ -2,7 +2,7 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="py-[3rem] px-[10rem]  flex flex-col gap-[3.5rem] sm:px-[1rem] md:px-[3rem]">
+    <div className="py-[3rem] px-[10rem]  flex flex-col gap-[3.5rem] sm:px-[0.5rem] md:px-[2rem]">
       <div className="relative">
         <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[12rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[20.7rem] sm:left-[-1.8px] md:bottom-[19.5rem] md:left-[-15px]"></div>
         <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] w-[55rem] sm:w-[24rem] md:w-[40rem]">

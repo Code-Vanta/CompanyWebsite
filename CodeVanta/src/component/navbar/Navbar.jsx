@@ -43,12 +43,12 @@ const Navbar = () => {
               : "flex gap-[4rem] py-3 border-b-4 md:hidden sm:hidden"
           }
         >
-          <p
+          <Link to="/about"
             onClick={handleItemClick}
             className="hover:text-[#225AA5] cursor-pointer hover:border-b-2 hover:border-[#225AA5]"
           >
             About
-          </p>
+          </Link>
           <Link
             to="/contactus"
             onClick={handleItemClick}
@@ -69,12 +69,12 @@ const Navbar = () => {
           >
             Works
           </a>
-          <p
+          <Link to="/services"
             onClick={handleItemClick}
             className="lg:hover:text-[#225AA5] lg:hover:border-b-2 lg:hover:border-[#225AA5]"
           >
             Services
-          </p>
+          </Link>
         </div>
       </div>
     </nav>
