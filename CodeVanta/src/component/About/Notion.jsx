@@ -5,7 +5,7 @@ const Notion = () => {
   return (
       <div className="text-center px-[7rem]  flex flex-col sm:px-[0.1rem]  md:px-[1rem] relative">
         <h1 className="text-[5rem] font-normal text-[#111010] sm:text-[2rem] ">
-          Code<span className="text-[#225AA5]">Vanta</span>
+          About <span className="text-[#225AA5]">Us</span>
         </h1>
 
         <p className="text- font-normal pb-[2rem] text-[1.1rem] w-[45rem] sm:text-[1rem] mx-auto sm:w-[24rem] sm:pb-[4rem]">
@@ -24,7 +24,7 @@ const Notion = () => {
           <img
             src={about}
             alt=""
-            className=" w-[45rem] z-10 left-[15rem] top-[24rem] sm:w-[20rem] sm:left-[2rem] sm:top-[22rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
+            className=" w-[45rem] z-10 left-[23rem] top-[24rem] sm:w-[20rem] sm:left-[2rem] sm:top-[22rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
           />
         </div>
       </div>
