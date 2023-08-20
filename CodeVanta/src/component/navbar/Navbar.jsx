@@ -39,7 +39,7 @@ const Navbar = () => {
         <div
           className={
             toggle
-              ? "h-screen w-full items-center pt-[2rem] text-white flex flex-col gap-[2rem] bg-[#225AA5]"
+              ? "h-screen w-full pt-[6rem] ease-out px-8 text-white flex flex-col gap-[2rem] bg-[#225AA5]"
               : "flex gap-[4rem] py-3 border-b-4 md:hidden sm:hidden"
           }
         >

@@ -11,7 +11,6 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <div className="px-[4rem] pt-4 sm:pt-2 pb-2 md:px-[0.3rem] sm:px-3">
         <div>
-          <NewsLetter />
           <div className="flex justify-around sm:flex sm:justify-start sm:gap-x-[6rem] sm:gap-y-7 p-3 sm:flex-wrap">
             <div className="flex flex-col gap-[0.5rem]">
               <h3 className="font-medium">Navigations</h3>
@@ -62,10 +61,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <getresponse-form
-        form-id="c76d8e90-a005-40b6-99a4-c9a3dfc7452c"
-        e="1"
-      ></getresponse-form>
     </footer>
   );
 };
