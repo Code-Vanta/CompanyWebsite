@@ -4,6 +4,7 @@ import Works from '../component/langingpage/works/Works';
 import WhyChoose from '../component/langingpage/why/WhyChoose';
 import OurServices from '../component/langingpage/servicess/OurServices';
 import GetReview from '../component/reviewss/GetReview';
+import { FiX } from "react-icons/fi";
 import { useState,useEffect } from 'react';
 
 const LandingPage = () => {
@@ -12,7 +13,7 @@ const LandingPage = () => {
    useEffect(() => {
      const popupTimeout = setTimeout(() => {
        setIsPopupOpen(true);
-     }, 60000);
+     }, 30000);
 
      return () => {
        clearTimeout(popupTimeout);
@@ -31,17 +32,17 @@ const LandingPage = () => {
       <GetReview />
       {isPopupOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-4 rounded shadow-lg relative">
+          <div className="bg-[#E6f5fb] p-4 rounded shadow-lg relative">
             <button
               onClick={closePopup}
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+              className="absolute top-0 right-2 text-gray-500 hover:text-gray-800"
             >
-              Close
+              <FiX size={30} className="text-slate-400" />
             </button>
-            <iframe
+            <iframe 
               title="Popup Form"
-              width="540"
-              height="305"
+              width="500"
+              height="400"
               src="https://d66ed512.sibforms.com/serve/MUIFAHPpt9Jutjfr_5anpboNtDELSwQU2vr274aWVuOmpqY_52ipok5pFBVU9jBQYhrXg9wU-HCgpAguYwiwqzvUMMN3rB7OBPTkPsXDKEl-LTA_CZFXeMqQepWbw04LW1xdQX7j3ea6BdRL4tArcbUK7Gmsr8EUNvpHLLAerqETO1x7bMCzqnUPQcb1eLH3qJoUOr7VnFw_wZIi"
               allowFullScreen
               style={{

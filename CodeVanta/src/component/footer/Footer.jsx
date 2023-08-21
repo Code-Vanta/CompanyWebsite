@@ -1,5 +1,4 @@
 import React from "react";
-import NewsLetter from "../langingpage/newsletter/NewsLetter";
 import logo from '../../assets/companyLogo.svg'
 import { FaFacebookF } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
@@ -13,7 +12,7 @@ const Footer = () => {
         <div>
           <div className="flex justify-around sm:flex sm:justify-start sm:gap-x-[6rem] sm:gap-y-7 p-3 sm:flex-wrap">
             <div className="flex flex-col gap-[0.5rem]">
-              <h3 className="font-medium">Navigations</h3>
+              <h3 className="font-medium text-[1.5rem]">Navigations</h3>
               <div className="flex flex-col gap-[0.3rem]">
                 <Link to="/">Home</Link>
                 <Link to="">About</Link>
@@ -23,14 +22,14 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-[0.5rem]">
-              <h3 className="font-medium">Legal</h3>
+              <h3 className="font-medium text-[1.5rem]">Legal</h3>
               <div className="flex flex-col gap-[0.3rem]">
                 <p>Privacy Policy</p>
                 <p>Terms of Service</p>
               </div>
             </div>
             <div className="flex flex-col gap-[0.5rem]">
-              <h3 className="font-medium">Contact Us</h3>
+              <h3 className="font-medium text-[1.5rem]">Contact Us</h3>
               <div className="flex flex-col gap-[0.3rem]">
                 <p>contact@codevanta.tech</p>
                 <p>+234 701 2340 590</p>
@@ -40,7 +39,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex sm:flex-col-reverse lg:px-[4rem] md:px-[4rem] gap-[2rem] lg:gap-[16rem] items-center">
+          <div className="flex sm:flex-col-reverse lg:px-[4rem] lg:justify-between sm:py-6 md:px-[4rem] gap-[2rem] items-center">
             <div className="w-[6rem] h-[6rem] sm:hidden">
               <img src={logo} className="bg-black" />
             </div>
