@@ -21,6 +21,7 @@ const Team = () => {
         image: Coletta,
         name: "Coletta Ezeagba",
         position: "Product Designer",
+        linkAddress: "https://www.linkedin.com/in/coletta-ezeagba-a86a63147",
         link: "Linkedin profile",
       },
       {
