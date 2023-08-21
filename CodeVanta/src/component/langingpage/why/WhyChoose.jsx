@@ -7,7 +7,7 @@ const WhyChoose = () => {
         <p className="text-center font-bold text-[3rem] py-4">
           Why Choose <span className="text-[#225AA5]">CodeVanta</span>?
         </p>
-        <p className="text-center font-normal text-[1.4rem]">
+        <p className="text-center font-normal sm:text-[0.9rem] sm:text-start text-[1.4rem]">
           In the rapidly evolving landscape of technology and software
           development, choosing the right partner for your projects can make all
           the difference. At CodeVanta, we take pride in offering a

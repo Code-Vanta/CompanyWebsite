@@ -1,70 +1,51 @@
-import React from "react";
-import Button from "../../button/Button";
-import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import axios from "axios";
+import React, { useState, useEffect } from "react";
 
 const NewsLetter = () => {
-  const [email, setEmail] = useState("");
-  function getEmail(e) {
-    setEmail(e.target.value);
-  }
-  async function handleSubmit(e) {
-    e.preventDefault();
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-    const data = {
-      campaign: {
-        campaignId: "PHp3H", // Replace with your campaign ID
-      },
-      contact: {
-        email,
-      },
+  useEffect(() => {
+    const popupTimeout = setTimeout(() => {
+      setIsPopupOpen(true);
+    }, 60000);
+
+    return () => {
+      clearTimeout(popupTimeout);
     };
+  }, []);
 
-    try {
-      const response = await axios.post(
-        "https://api.getresponse.pl/v3/contacts",
-        data,
-        {
-          headers: {
-            "Content-Type": "application/json",
-            "X-Auth-Token": "api-key w3v7b58ta18bq81lxfs3gdk7myjygf1i", // Replace with your GetResponse API key
-          },
-        }
-      );
+  const closePopup = () => {
+    setIsPopupOpen(false);
+  };
 
-      if (response.status === 202) {
-        alert("Subscription successful!"); // Modify this based on your UI/UX
-        setEmail("");
-      } else {
-        alert("Subscription failed. Please try again."); // Modify this based on your UI/UX
-      }
-    } catch (error) {
-      console.error("Error subscribing:", error);
-    }
-  }
   return (
-    <div className="flex justify-center">
-      <div className="bg-white rounded-lg drop-shadow-2xl p-2 sm:flex sm:flex-col sm:gap-[0.2rem] flex gap-[0.8rem] items-center">
-        <p className="font-normal text-black text-[2rem] sm:text-[1.5rem] sm:w-full w-[15rem] leading-tight">
-          Subscribe to our Newsletter
-        </p>
-        <form onSubmit={handleSubmit} className="flex p-3 gap-[0.4rem]">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={getEmail}
-            className="ring-1 px-1 text-black rounded-sm ring-black"
-          />
-          <Button
-            text={"Subscribe"}
-            style="bg-[#225AA5] text-white rounded-sm py-2 px-6"
-          />
-        </form>
-      </div>
-      <ToastContainer />
+    <div className="min-h-screen flex items-center justify-center">
+      {isPopupOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-4 rounded shadow-lg relative">
+            <button
+              onClick={closePopup}
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+            >
+              Close
+            </button>
+            <iframe
+              title="Popup Form"
+              width="540"
+              height="305"
+              src="https://d66ed512.sibforms.com/serve/MUIFAHPpt9Jutjfr_5anpboNtDELSwQU2vr274aWVuOmpqY_52ipok5pFBVU9jBQYhrXg9wU-HCgpAguYwiwqzvUMMN3rB7OBPTkPsXDKEl-LTA_CZFXeMqQepWbw04LW1xdQX7j3ea6BdRL4tArcbUK7Gmsr8EUNvpHLLAerqETO1x7bMCzqnUPQcb1eLH3qJoUOr7VnFw_wZIi"
+              frameBorder="0"
+              scrolling="auto"
+              allowFullScreen
+              style={{
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+                maxWidth: "100%",
+              }}
+            ></iframe>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

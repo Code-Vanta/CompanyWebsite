@@ -2,9 +2,9 @@ import React from "react";
 
 const Vision = () => {
   return (
-    <div className="py-[3rem] px-[10rem]  flex flex-col gap-[3.5rem] sm:px-[0.5rem] md:px-[2rem]">
+    <div className="py-[3rem] px-[10rem] items-center flex flex-col gap-[3.5rem] sm:px-[0.5rem] md:px-[2rem]">
       <div className="relative">
-        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[12rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[20.7rem] sm:left-[-1.8px] md:bottom-[19.5rem] md:left-[-15px]"></div>
+        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[12rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[20.7rem] sm:left-[-1.8px] md:bottom-[15rem] md:left-[-15px]"></div>
         <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] w-[55rem] sm:w-[24rem] md:w-[40rem]">
           <p className="text-[2rem] font-medium sm:text-[1.5rem]">Our Vision</p>
           <p className="text-[1.1rem]  sm:text-[1rem]">
@@ -19,7 +19,7 @@ const Vision = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[15rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[24rem] sm:left-[-1.9px] md:bottom-[25rem] md:left-[-15px]"></div>
+        <div className="w-[4rem] h-[4rem] rounded-full bg-[#225AA5] absolute bottom-[15rem] left-[-1rem] sm:w-[3rem] sm:h-[3rem] sm:bottom-[24rem] sm:left-[-1.9px] md:bottom-[18.5rem] md:left-[-15px]"></div>
         <div className="bg-[#E6F5FB]  rounded-3xl  px-[1.5rem] py-[2.5rem] w-[55rem] sm:w-[24rem] md:w-[40rem]">
           <p className="text-[2rem] font-medium sm:text-[1.5rem] ">
             Our Mission

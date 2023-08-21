@@ -50,7 +50,7 @@ const PostReview = () => {
           Write a Review about{" "}
           <span className="text-[#225AA5]">Our Services.</span>
         </p>
-        <div className="lg:mx-[7rem]">
+        <div className="lg:mx-[17rem]">
           <form
             onSubmit={handleSubmit}
             className="shadow-md rounded-lg p-3 flex flex-col gap-5"
