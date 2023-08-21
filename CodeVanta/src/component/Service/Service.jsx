@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceTwo = () => {
   return (
-    <div className="pt-2 sm:pt- sm:pb-4 pb-2 flex flex-col gap-8">
+    <div className="pt-2 md:pb-6 sm:pb-4 pb-2 flex flex-col gap-8">
       <div className="text-center px-[4rem] md:px-[0.3rem] sm:px-3">
         <div className="text-center flex flex-col gap-2 ">
           <p className="text-[4rem] text-[#225AA5] font-normal sm:text-[2rem] ">
