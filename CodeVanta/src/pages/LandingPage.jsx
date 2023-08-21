@@ -41,7 +41,7 @@ const LandingPage = () => {
             </button>
             <iframe 
               title="Popup Form"
-              width="500"
+              width="420"
               height="400"
               src="https://d66ed512.sibforms.com/serve/MUIFAHPpt9Jutjfr_5anpboNtDELSwQU2vr274aWVuOmpqY_52ipok5pFBVU9jBQYhrXg9wU-HCgpAguYwiwqzvUMMN3rB7OBPTkPsXDKEl-LTA_CZFXeMqQepWbw04LW1xdQX7j3ea6BdRL4tArcbUK7Gmsr8EUNvpHLLAerqETO1x7bMCzqnUPQcb1eLH3qJoUOr7VnFw_wZIi"
               allowFullScreen

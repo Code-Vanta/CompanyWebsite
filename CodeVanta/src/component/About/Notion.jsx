@@ -3,11 +3,11 @@ import about from "../../assets/About.png";
 
 const Notion = () => {
   return (
-      <div className="text-center px-[7rem]  flex flex-col sm:px-[0.1rem]  md:px-[1rem] relative">
-        <h1 className="text-[5rem] font-normal text-[#111010] sm:text-[2rem] ">
+      <div className="text-center px-[7rem] sm:text-start flex flex-col sm:px-[0.1rem] md:px-[1rem] relative">
+        <h1 className="text-[5rem] sm:text-center font-normal text-[#111010] sm:text-[2rem] ">
           About <span className="text-[#225AA5]">Us</span>
         </h1>
-        <p className="text- font-normal pb-[2rem] text-[1.1rem] w-[45rem] sm:text-[1rem] mx-auto sm:w-[24rem] sm:pb-[4rem]">
+        <p className="text- font-normal pb-[2rem] text-[1.1rem] w-[rem] sm:text-[1rem] mx-auto sm:w-[rem] sm:pb-[4rem]">
           If your objective is to give your business the accessibility it
           deserves in today’s online/digital space, look no further than
           CODEVANTA! With close to 4 billion people accessing social media

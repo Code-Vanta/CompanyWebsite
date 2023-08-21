@@ -95,7 +95,7 @@ const PostReview = () => {
                 type="date"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
-                className="ring-2 ring-slate-300 rounded-md pl-2 pr-5 py-1"
+                className="ring-2 ring-slate-300 rounded-md px-2 py-1"
               />
             </div>
             <div className="flex gap-2 justify-center">

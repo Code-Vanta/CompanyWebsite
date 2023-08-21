@@ -36,10 +36,10 @@ const GetReview = () => {
                   key={index}
                   className="shadow-md rounded-md text-[#225AA5] bg-[#E6F5FB] flex flex-col gap-2 p-3"
                 >
-                  <p className="font-medium text-[2rem] sm:text-[1.5rem]">
+                  <p className="font-normal text-[2rem] sm:text-[1.5rem]">
                     {review.name}
                   </p>
-                  <p className="font-medium text-[1.5rem] sm:text-[1.1rem]">
+                  <p className="font-normal text-[1.5rem] sm:text-[1.1rem]">
                     {review.organization}
                   </p>
                   <p className="font-normal">{review.message}</p>
