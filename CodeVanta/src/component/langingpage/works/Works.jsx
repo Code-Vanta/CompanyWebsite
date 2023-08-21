@@ -11,7 +11,7 @@ const Works = () => {
         <div className="">
           <div className="lg:flex lg:flex-row flex flex-col gap-[3rem] lg:gap-[4rem] items-start">
             <div className="lg:w-[40%] w-full sm:text-center md:text-center">
-              <h5 className="text-[#225AA5] font-normal text-[5rem] sm:text-[4.5rem]">
+              <h5 className="text-[#225AA5] font-normal text-[4rem] sm:text-[3.5rem]">
                 BLOCKRIDE
               </h5>
               <p>

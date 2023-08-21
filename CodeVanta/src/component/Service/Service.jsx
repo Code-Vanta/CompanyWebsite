@@ -14,7 +14,7 @@ const ServiceTwo = () => {
           </p>
         </div>
       </div>
-      <div className="service flex flex-col gap-4 px-[4rem] md:px-[0.3rem] sm:px-3">
+      <div className="service flex flex-col font-light gap-4 px-[4rem] md:px-[0.3rem] sm:px-3">
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
           <div className="flex pl-[2.2rem] pt-[1rem] gap-5 sm:pt-[1.1rem] sm:pl-[2.2rem] sm:gap-4">
             <span className="font-bold">
