@@ -7,7 +7,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { ImLocation } from "react-icons/im";
 import { HiMail } from "react-icons/hi";
@@ -126,7 +125,7 @@ const ContactUs = () => {
               <div className="flex flex-col gap-[3rem] ">
                 <div className="flex gap-5 items-center">
                   <BiSolidPhoneCall size={24} className="text-[#225AA5]" />
-                  <p>+234 7057 870 231</p>
+                  <p>+234 8148 3271 69</p>
                 </div>
                 <div className="flex gap-5 items-center">
                   <HiMail size={24} className="text-[#225AA5]" />
@@ -142,9 +141,6 @@ const ContactUs = () => {
                   </a>
                   <a href="https://www.linkedin.com/company/97924121/">
                     <BiLogoLinkedin />
-                  </a>
-                  <a href="">
-                    <AiOutlineTwitter />
                   </a>
                 </div>
               </div>

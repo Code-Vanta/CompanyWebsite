@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceTwo = () => {
   return (
-    <div className="pt-2 md:pb-6 sm:pb-4 pb-2 flex flex-col gap-8">
+    <div className="md:pb-6 sm:pb-7 pb-2 flex flex-col gap-8">
       <div className="text-center px-[4rem] md:px-[0.3rem] sm:px-3">
         <div className="text-center flex flex-col gap-2 ">
           <p className="text-[4rem] text-[#225AA5] font-normal sm:text-[2rem] ">
@@ -14,9 +14,9 @@ const ServiceTwo = () => {
           </p>
         </div>
       </div>
-      <div className="service flex flex-col font-light gap-4 px-[4rem] md:px-[0.3rem] sm:px-3">
+      <div className="service flex flex-col font-light gap-4 px-[4rem] md:px-[0.3rem] sm:px-1">
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
-          <div className="flex pl-[2.2rem] pt-[1rem] gap-5 sm:pt-[1.1rem] sm:pl-[2.2rem] sm:gap-4">
+          <div className="flex pl-[2.2rem] pt-[1rem] gap-5 sm:pt-[1.1rem] sm:pl-[2.2rem] sm:gap-2">
             <span className="font-bold">
               <p className="text-[1.3rem] sm:text-[1.25rem]">01</p>
             </span>
@@ -35,7 +35,7 @@ const ServiceTwo = () => {
         </div>
         <div className="flex justify-end">
           <div className="rounded-full bg-[#029CD6] w-[12.5rem] h-[12.5rem]">
-            <div className="flex gap-4 justify-end pr-10 pt-3">
+            <div className="flex gap-4 sm:gap-2 justify-end pr-10 pt-3">
               <div className="">
                 <h6 className="font-bold text-[1.3rem] justify-between text-end ">
                   Branding
@@ -52,7 +52,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6] ">
-          <div className="flex pl-[3.2rem] sm:pt-[1rem] pt-[0.3rem] gap-5">
+          <div className="flex pl-[3.2rem] sm:pt-[1rem] sm:gap-2 pt-[0.3rem] gap-5">
             <span className="font-bold">
               <p className="text-[1.3rem]">03</p>
             </span>
@@ -70,7 +70,7 @@ const ServiceTwo = () => {
         </div>
         <div className="flex justify-end">
           <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
-            <div className="flex justify-end pr-10 pt-3 gap-4">
+            <div className="flex justify-end pr-10 pt-3 sm:gap-2 gap-4">
               <div className="w-[25rem] sm:">
                 <h6 className="w-[rem] font-bold text-[1.3rem] justify-between text-end ">
                   App Design and Development
@@ -86,7 +86,7 @@ const ServiceTwo = () => {
           </div>
         </div>
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
-          <div className="flex pl-[2.2rem] sm:pt-[1rem] pt-[1rem] gap-4">
+          <div className="flex pl-[2.2rem] sm:gap-2 sm:pt-[1rem] pt-[1rem] gap-4">
             <span className="font-bold">
               <p className="text-[1.3rem]">05</p>
             </span>

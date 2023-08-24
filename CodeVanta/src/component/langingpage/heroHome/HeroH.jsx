@@ -23,7 +23,7 @@ const HeroH = () => {
           </p>
           <Link to="/contactus" className='flex lg:justify-start justify-center'>
             <Button
-              text={"Free Consultation"}
+              text={"Contact Us"}
               style="bg-[#225AA5] rounded-r-full rounded-bl-full text-white py-2 px-2"
             />
           </Link>

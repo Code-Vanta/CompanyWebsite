@@ -23,7 +23,7 @@ const Notion = () => {
           <img
             src={about}
             alt=""
-            className=" w-[45rem] z-10 left-[23rem] top-[24rem] sm:w-[20rem] sm:left-[2rem] sm:top-[22rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
+            className=" w-[45rem] z-10 left-[24rem] top-[19rem] sm:w-[20rem] sm:left-[2rem] sm:top-[22rem] md:left-[5rem] md:top-[24rem] md:w-[35rem] absolute pb-6"
           />
         </div>
       </div>

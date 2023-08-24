@@ -1,11 +1,11 @@
 import React from 'react'
-import Kamal from '../../assets/kamal.jpg'
+// import Kamal from '../../assets/kamal.jpg'
 import johnson from '../../assets/johnson.jpg'
 import Sekinat from '../../assets/sekinat.jpeg'
 import Coletta from '../../assets/Coletta.jpeg'
 import leke from '../../assets/leke.jpg'
 import Card from '../card/Card'
-import Ekene from '../../assets/Ekene.jpg'
+// import Ekene from '../../assets/Ekene.jpg'
 
 const Team = () => {
 
@@ -13,7 +13,7 @@ const Team = () => {
       {
         image: johnson,
         name: "Johnson Gabriel",
-        position: "Founder/Team lead",
+        position: "Founder/CEO",
         linkAddress: "https://www.linkedin.com/in/johnson-gabriel-a802b2286",
         link: "Linkedin profile",
       },
@@ -32,7 +32,6 @@ const Team = () => {
         link: "Linkedin profile",
       },
       {
-        image: Kamal,
         name: "Kamalideen Omotosho",
         position: "Front-End Developer",
         linkAddress:
@@ -47,7 +46,7 @@ const Team = () => {
         link: "Linkedin profile",
       },
       {
-        image: Ekene,
+        
         name: "Ekene Eziagulu",
         position: "Content creator",
         link: "Linkedin profile",

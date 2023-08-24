@@ -1,14 +1,14 @@
 
 // import Navbar from "./component/navbar/Navbar"
 
-import About from "./component/About/About"
+import About from "./pages/About"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LayOut from "./LayOut";
 import Fallback from "./component/fallback/Fallback";
 import LandingPage from "./pages/LandingPage";
 import Contact from "./pages/Contact";
-import BlogPage from "./component/blog/BlogPage";
-import Service from "./component/Service/Service";
+import BlogPage from "./pages/BlogPage";
+import Service from "./pages/Service";
 
 
 function App() {
