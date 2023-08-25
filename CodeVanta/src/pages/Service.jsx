@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceTwo = () => {
   return (
-    <div className="md:pb-6 sm:pb-7 pb-2 flex flex-col gap-8">
+    <div className="md:pb-6 sm:pb-7 pb-4 flex flex-col gap-8">
       <div className="text-center px-[4rem] md:px-[0.3rem] sm:px-3">
         <div className="text-center flex flex-col gap-2 ">
           <p className="text-[4rem] text-[#225AA5] font-normal sm:text-[2rem] ">
@@ -18,10 +18,10 @@ const ServiceTwo = () => {
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
           <div className="flex pl-[2.2rem] pt-[1rem] gap-5 sm:pt-[1.1rem] sm:pl-[2.2rem] sm:gap-2">
             <span className="font-bold">
-              <p className="text-[1.3rem] sm:text-[1.25rem]">01</p>
+              <p className="text-[1.3rem] sm:text-[1.1rem]">01</p>
             </span>
             <span className="flex flex-col gap-2 sm:gap-1">
-              <p className="w-[9rem] font-bold text-[1.3rem] leading-tight sm:text-[1.2rem]">
+              <p className="w-[9rem] font-bold text-[1.3rem] leading-tight sm:text-[1.1rem]">
                 Web Design and Development{" "}
               </p>
               <p className="w-[25rem] text-[1rem]  sm:w-[19rem] ">
@@ -37,7 +37,7 @@ const ServiceTwo = () => {
           <div className="rounded-full bg-[#029CD6] w-[12.5rem] h-[12.5rem]">
             <div className="flex gap-4 sm:gap-2 justify-end pr-10 pt-3">
               <div className="">
-                <h6 className="font-bold text-[1.3rem] justify-between text-end ">
+                <h6 className="font-bold sm:text-[1.1rem] text-[1.3rem] justify-between text-end ">
                   Branding
                 </h6>
                 <p className="w-[26rem] text-[1rem] text-end sm:w-[19rem]">
@@ -47,17 +47,17 @@ const ServiceTwo = () => {
                   customised logos and themes, unique to your enterprise.
                 </p>
               </div>
-              <p className="text-[1.3rem] font-bold">02</p>
+              <p className="text-[1.3rem] sm:text-[1.1rem] font-bold">02</p>
             </div>
           </div>
         </div>
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6] ">
           <div className="flex pl-[3.2rem] sm:pt-[1rem] sm:gap-2 pt-[0.3rem] gap-5">
             <span className="font-bold">
-              <p className="text-[1.3rem]">03</p>
+              <p className="text-[1.3rem] sm:text-[1.1rem]">03</p>
             </span>
             <span className="flex flex-col gap-2">
-              <p className="w-[5rem] leading-tight font-bold text-[1.3rem] ">
+              <p className="w-[5rem] sm:text-[1.1rem] leading-tight font-bold text-[1.3rem] ">
                 Product Design
               </p>
               <p className="w-[25rem] text-[1rem]  sm:w-[15rem]">
@@ -72,7 +72,7 @@ const ServiceTwo = () => {
           <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
             <div className="flex justify-end pr-10 pt-3 sm:gap-2 gap-4">
               <div className="w-[25rem] sm:">
-                <h6 className="w-[rem] font-bold text-[1.3rem] justify-between text-end ">
+                <h6 className="w-[rem] font-bold sm:text-[1.1rem] text-[1.3rem] justify-between text-end ">
                   App Design and Development
                 </h6>
                 <p className="w-[25rem] text-[1rem] text-end  sm:w-[15rem]">
@@ -81,17 +81,17 @@ const ServiceTwo = () => {
                   for your business.
                 </p>
               </div>
-              <p className="text-[1.3rem] font-bold">04</p>
+              <p className="text-[1.3rem] sm:text-[1.1rem] font-bold">04</p>
             </div>
           </div>
         </div>
         <div className="w-[12.5rem] h-[12.5rem] rounded-full bg-[#029CD6]">
           <div className="flex pl-[2.2rem] sm:gap-2 sm:pt-[1rem] pt-[1rem] gap-4">
             <span className="font-bold">
-              <p className="text-[1.3rem]">05</p>
+              <p className="text-[1.3rem] sm:text-[1.1rem]">05</p>
             </span>
             <span className="flex flex-col gap-2">
-              <p className="w-[11rem] font-bold leading-tight text-[1.3rem]">
+              <p className="w-[11rem] font-bold leading-tight sm:text-[1.1rem] text-[1.3rem]">
                 Consulting & Advisory Services
               </p>
               <p className="w-[25rem] text-[0.9rem] sm:w-[19rem]">
