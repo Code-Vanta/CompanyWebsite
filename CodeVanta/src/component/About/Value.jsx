@@ -7,7 +7,7 @@ const Value = () => {
         <p className="text-[3rem] text-center font-medium py-[1.5rem] sm:py-[rem] ">
           Our Value{" "}
         </p>
-        <p className="text-center text-[1.5rem]">
+        <p className="text-center">
           At CODEVANTA, every call, enquiry,complaint or feedback from you, is
           of utmost importance. We engage all existing and potential clients
           based on the following tenets of our value proposition.

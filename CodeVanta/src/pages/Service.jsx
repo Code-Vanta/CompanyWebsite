@@ -21,7 +21,7 @@ const ServiceTwo = () => {
               <p className="text-[1.3rem] sm:text-[1.1rem]">01</p>
             </span>
             <span className="flex flex-col gap-2 sm:gap-1">
-              <p className="w-[9rem] font-bold text-[1.3rem] leading-tight sm:text-[1.1rem]">
+              <p className="sm:w-[9rem] font-bold text-[1.3rem] leading-tight sm:text-[1.1rem]">
                 Web Design and Development{" "}
               </p>
               <p className="w-[25rem] text-[1rem]  sm:w-[19rem] ">
@@ -91,7 +91,7 @@ const ServiceTwo = () => {
               <p className="text-[1.3rem] sm:text-[1.1rem]">05</p>
             </span>
             <span className="flex flex-col gap-2">
-              <p className="w-[11rem] font-bold leading-tight sm:text-[1.1rem] text-[1.3rem]">
+              <p className="sm:w-[11rem] font-bold leading-tight sm:text-[1.1rem] text-[1.3rem]">
                 Consulting & Advisory Services
               </p>
               <p className="w-[25rem] text-[0.9rem] sm:w-[19rem]">

@@ -32,16 +32,6 @@ const HeroH = () => {
           <img src={image} alt="" />
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="mx-[5rem] my-3 px-4 w-[30rem] sm:bg-slate-100 flex justify-between items-center rounded-full border-[1px] border-black">
-          <input
-            type="text"
-            placeholder="Search for services..."
-            className="border-none rounded-full w-[90%] p-2 sm:bg-slate-100 outline-none"
-          />
-          <CiSearch className="text-gray-700" />
-        </div>
-      </div>
     </section>
   );
 }

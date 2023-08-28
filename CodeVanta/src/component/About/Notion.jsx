@@ -3,7 +3,7 @@ import about from "../../assets/About.png";
 
 const Notion = () => {
   return (
-      <div className="text-center px-[7rem] sm:text-start flex flex-col sm:px-[0.1rem] md:px-[1rem] relative">
+      <div className="text-center px-[7rem] sm:text-start flex flex-col sm:px-[0.2rem] md:px-[1rem] relative">
         <h1 className="text-[5rem] sm:text-center font-normal text-[#111010] sm:text-[2rem] ">
           About <span className="text-[#225AA5]">Us</span>
         </h1>
