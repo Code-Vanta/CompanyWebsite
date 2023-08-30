@@ -2,7 +2,6 @@ import React from "react";
 import logo from '../../assets/companyLogo.svg'
 import { FaFacebookF } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
-import { AiOutlineTwitter } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
