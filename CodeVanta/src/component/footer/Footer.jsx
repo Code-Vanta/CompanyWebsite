@@ -24,7 +24,7 @@ const Footer = () => {
               <h3 className="font-medium text-[1.5rem]">Contact Us</h3>
               <div className="flex flex-col gap-[0.3rem]">
                 <p>contact@codevanta.tech</p>
-                <p>+234 8148 3271 29</p>
+                <p>+234 8148 3271 69</p>
                 <a>Facebook</a>
                 <a>LinkedIn</a>
               </div>
