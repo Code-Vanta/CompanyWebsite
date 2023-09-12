@@ -2,7 +2,7 @@ import React from "react";
 
 const Value = () => {
   return (
-    <div className="value1  px-[7rem] pt-[10rem] mt-[11rem] py-[3rem] relative sm:px-[0.1rem] sm:pt-[5rem] sm:mt-[1.5rem] md:px-[0.5rem] ">
+    <div className="value1  px-[7rem] pt-[10rem] mt-[11rem] py-[3rem] relative sm:px-[0.1rem] sm:pt-[5.5rem] sm:mt-[1.5rem] md:px-[0.5rem] ">
       <div className="">
         <p className="text-[3rem] text-center font-medium py-[1.5rem] sm:py-[rem] ">
           Our Value{" "}
