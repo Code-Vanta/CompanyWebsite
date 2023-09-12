@@ -4,13 +4,11 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: { 
+    extend: {
       backgroundImage: {
-
         chooseI: "url('/src/assets/backgroundCh.png');",
         contact: "url('src/assets/contactBg.png')",
         smbg: "url('src/assets/smbglanding.png')",
-
       },
 
       fontFamily: {
@@ -28,4 +26,3 @@ export default {
   },
   plugins: [],
 };
-
